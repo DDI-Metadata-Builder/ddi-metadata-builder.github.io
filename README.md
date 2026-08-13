@@ -2,7 +2,7 @@
 
 ## Overview
 
-The [**DDI Metadata Generator**](https://xyhdiw.github.io/DDI-Metadata-Builder/) is an interactive web-based interface for creating structured metadata based on the **Data Documentation Initiative (DDI)** standard. The interface supports the creation of metadata that is more structured, consistent, and standardized than free-text documentation.
+The [**DDI Metadata Generator**](https://xyhdiw.github.io/DDI-Metadata-Builder/) is an interactive web-based interface for creating structured metadata based on the [**Data Documentation Initiative (DDI)**](https://ddialliance.org/) standard. The interface supports the creation of metadata that is more structured, consistent, and standardized than free-text documentation.
 
 It is designed for researchers, research data managers, data stewards, students, and other users who need to describe research data in a standardized format but may not have extensive experience with DDI, XML, or metadata engineering.
 
@@ -10,11 +10,12 @@ Instead of manually studying a large number of DDI elements and writing XML docu
 
 The tool is particularly suitable for:
 
+- lightweight metadata creation;
 - small and medium-sized research datasets;
 - training and educational use;
-- lightweight metadata creation;
 - preparing metadata for repository submission;
 - learning how concrete data descriptions are represented in DDI;
+- entry point for batch processing
 - validating and further editing existing metadata files.
 
 ---
@@ -24,9 +25,10 @@ The tool is particularly suitable for:
 
 ### Standards-Based Metadata Structure
 
-The interface is based on the DDI metadata schema and its hierarchical structure.
+The interface is currently based on the DDI metadata schema [Codebook 2.6](https://ddialliance.org/ddi-codebook_v2.6) and its [hierarchical structure](https://docs.ddialliance.org/DDI-Codebook/2.6/xmlschema/).
 
 The generated document follows the supported DDI model so that metadata is represented in a consistent and machine-readable way.
+
 
 ### Intuitive Data Description
 
@@ -40,13 +42,13 @@ The application provides two versions to support different levels of need.
 
 #### Simple Mode
 
-The simple mode contains a minimum set of commonly required metadata elements. It focuses on the most important information needed to describe a dataset in a clear and standardized way. This version is fully compliant with Open Data Format.
+The simple mode contains a minimum set of commonly required metadata elements. It focuses on the most important information needed to describe a dataset in a clear and standardized way. 
 
 #### Extended Mode
 
 The extended mode supports a more comprehensive metadata description.
 
-Depending on the implemented DDI profile, it can include information about:
+Depending on the implemented DDI profile, it plan to include information about:
 
 - study and dataset identification;
 - creators, contributors, and distributors;
@@ -63,9 +65,9 @@ Depending on the implemented DDI profile, it can include information about:
 
 The extended mode is intended for users who need a richer description of their data, including metadata commonly imported from statistical formats such as Stata, SPSS, or SAS.
 
-### Upload and schema-based XML validation
+### Schema-based DDI validation
 
-Users can upload an existing XML file and varlidate against DDI codebook schema. And continue processing it in the interface.
+Users can upload an existing XML file and validate against DDI codebook schema. And continue processing it in the interface.
 
 This supports iterative metadata creation instead of requiring users to start from the beginning each time.
 
@@ -145,7 +147,7 @@ Existing DDI XML or JSON files can be uploaded and processed in the interface. T
 
 ---
 
-## Planned Extensions
+## Future development
 
 Possible future developments include:
 
@@ -158,7 +160,6 @@ Possible future developments include:
 - comparison of uploaded metadata with the generated DDI structure.
 
 ---
-
 
 ## Feedback and Contributions
 
@@ -174,6 +175,7 @@ Useful contributions may include:
 - improving documentation;
 - suggesting repository integration scenarios.
 
-  Please use the GitHub issue tracker to report problems or propose new features.
+Please use GitHub issue tracker can be used to report problems or propose new features.
+
 ---
 
