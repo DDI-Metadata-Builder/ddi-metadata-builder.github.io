@@ -2,7 +2,7 @@
 
 ## Overview
 
-The [**DDI Metadata Generator**](https://xyhdiw.github.io/DDI-Metadata-Builder/) is an interactive web-based interface for creating structured metadata based on the [**Data Documentation Initiative (DDI)**](https://ddialliance.org/) standard. The interface supports the creation of metadata that is more structured, consistent, and standardized than free-text documentation.
+The [**DDI Metadata Generator**](https://ddi-metadata-builder.github.io/) is an interactive web-based interface for creating structured metadata based on the [**Data Documentation Initiative (DDI)**](https://ddialliance.org/) standard. The interface supports the creation of metadata that is more structured, consistent, and standardized than free-text documentation.
 
 It is designed for researchers, research data managers, data stewards, students, and other users who need to describe research data in a standardized format but may not have extensive experience with DDI, XML, or metadata engineering.
 
