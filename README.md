@@ -85,17 +85,6 @@ This helps users understand how their input is represented in DDI.
 ---
 ## Purpose of this tool
 
-### Support FAIR Data Practices
-
-Structured DDI metadata can contribute to the FAIR principles by improving the:
-
-- **Findability** of research data through richer and more consistent descriptions;
-- **Accessibility** of metadata in machine-readable formats;
-- **Interoperability** between repositories, catalogues, libraries, and research data infrastructures;
-- **Reusability** of data through clearer documentation of datasets, variables, concepts, categories, and related resources.
-
-The tool does not make a dataset FAIR by itself, but it helps users create metadata that can support FAIR-oriented data publication and preservation workflows.
-
 ### Lower the Entry Barrier to DDI
 
 DDI is a comprehensive metadata standard with many elements, attributes, relationships, and possible levels of description. For users who only need to document a small dataset, learning the full specification and the technical process of generating valid XML may require disproportionate effort.
@@ -144,6 +133,17 @@ Existing DDI XML or JSON files can be uploaded and processed in the interface. T
 - checking whether metadata follows the expected structure;
 - editing previously generated documents;
 - validating metadata against the supported DDI model.
+
+### Support FAIR Data Practices
+
+Structured DDI metadata can contribute to the FAIR principles by improving the:
+
+- **Findability** of research data through richer and more consistent descriptions;
+- **Accessibility** of metadata in machine-readable formats;
+- **Interoperability** between repositories, catalogues, libraries, and research data infrastructures;
+- **Reusability** of data through clearer documentation of datasets, variables, concepts, categories, and related resources.
+
+The tool does not make a dataset FAIR by itself, but it helps users create metadata that can support FAIR-oriented data publication and preservation workflows.
 
 ---
 
