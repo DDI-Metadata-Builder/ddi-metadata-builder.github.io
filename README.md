@@ -179,3 +179,11 @@ Please use GitHub issue tracker can be used to report problems or propose new fe
 
 ---
 
+## License
+
+The application source code is licensed under the [MIT License](LICENSE).
+
+The bundled DDI-Codebook 2.6 schema and documentation in
+`ddi-c_2-6_2026-04-15/` are third-party materials. They remain subject to the
+included [CC BY 4.0 license](ddi-c_2-6_2026-04-15/license.txt); attribution
+and other applicable terms for those materials must be retained.
