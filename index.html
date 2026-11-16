@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DDI Codebook Studio</title>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PTDPXFNN');</script>
+  <!-- End Google Tag Manager -->
   <style>
     :root{--ink:#17243f;--muted:#667085;--line:#d9e1eb;--blue:#0b65d8;--navy:#102750;--soft:#f7f9fc;--danger:#b42318}*{box-sizing:border-box}body{margin:0;color:var(--ink);font:14px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}button,input,textarea,select{font:inherit}button{cursor:pointer}
     header{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:18px 36px;background:var(--navy);color:#fff}.brand{display:flex;gap:12px;align-items:center}.mark{display:grid;place-items:center;width:35px;height:35px;border-radius:9px;background:#d8f3ed;color:var(--navy);font-weight:800}.brand h1{font-size:17px;margin:0}.brand p{margin:2px 0 0;color:#bdcbe0;font-size:12px}.actions{display:flex;align-items:center;gap:9px}.actions button,.file-label{border:1px solid #6c82a8;border-radius:7px;background:transparent;color:#fff;padding:8px 10px;font-size:12px}.actions .primary{background:#fff;color:var(--navy)}#importFeedback{max-width:220px;color:#c5f2e5;font-size:11px}
@@ -16,6 +19,9 @@
   </style>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTDPXFNN" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header>
     <div class="brand"><div class="mark">D</div><div><h1>DDI Codebook Studio</h1><p>Interactive metadata builder · DDI-Codebook 2.6</p></div></div>
     <div class="actions"><span id="importFeedback" role="status"></span><button id="validateXml" type="button">Validate XML</button><label class="file-label" for="fileInput">Import XML / JSON</label><input id="fileInput" type="file" accept=".xml,.json,application/xml,application/json,text/xml" hidden><button id="loadExample" type="button">Load example</button><button id="clearAll" type="button">Clear</button><button id="downloadTop" class="primary" type="button">Download XML</button></div>
