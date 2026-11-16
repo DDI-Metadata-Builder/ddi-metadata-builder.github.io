@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "DDI Codebook Studio"
+type: software
+license: MIT
+authors:
+  - name: Xiaoyao Han
+  - affiliation: DIW Berlin
+version: 0.1.0
+date-released: 2026-11-16
+abstract: >-
+  A browser-only metadata editor for DDI-Codebook 2.6, supporting simple and
+  comprehensive entry modes, live XML/JSON preview, import, export, and
+  structural XML validation against the bundled DDI-Codebook schema.
+keywords:
+  - DDI-Codebook
+  - metadata
+  - social science data
+  - XML
